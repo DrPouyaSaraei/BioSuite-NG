@@ -3,6 +3,7 @@
 Python reimplementation + extension of **BioSuite** (Uzan & Nahum, *Br J
 Radiol* 2012;85:1279-1286) -- a radiobiological treatment-optimisation tool
 computing NTCP/TCP and suggesting optimal prescription dose / fractionation.
+For more detailed information, please refer to the *BioSuite-NG User Manual*.
 
 **Developed by:** Dr. Pouya Saraei (Saraei P.)
 **Affiliation:** Department of Medical Physics, Ahvaz Jundishapur University
@@ -84,7 +85,7 @@ no C++ Build Tools needed on Windows.
 | `dvh/excel_import.py` | Generic wide/long-format Excel DVH import |
 | `dvh/pinnacle_excel_import.py` | Native Pinnacle "Points[]={...}" block-format Excel import |
 
-### Desktop UI (`ui/`, PyQt6) -- 7 tabs mirroring the original screenshots
+### Desktop UI (`ui/`, PyQt6)
 
 1. **Treatment plans** -- add/modify/delete plans
 2. **Model/Endpoint parameters** -- add NTCP/TCP endpoints manually, or from
