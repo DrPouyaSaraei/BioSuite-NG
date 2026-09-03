@@ -137,23 +137,6 @@ second copy with the second endpoint. You'll have two rows for the same
 physical DVH, each showing a different model's prediction, comparable
 side by side.
 
-## Known gaps
-
-1. The Fitting tab fits only `alpha` (1 parameter); a multi-parameter fit
-   is possible but not yet built.
-2. Two TCP model options visible in the original BioSuite's UI --
-   "target/Poisson cumulative cure probability" and "compensated early
-   reaction" -- are NOT implemented. Neither the 2012 paper (which
-   documents exactly 5 models total) nor the original exercise sheet
-   describes their formulas, so no attempt has been made to guess them;
-   implementing them needs a documented source.
-3. The TCP parameter bank's "Add from bank" dialog imports every record
-   as a plain Marsden-model endpoint, even for the one record (P003, Wang
-   et al. 2003) that reports sublethal-repair/protraction detail -- that
-   detail is shown in the record's notes but not yet wired through to
-   `tcp_lq_slr_dvh` at the bank-import step (the manual "Add new
-   endpoint" -> LQ-SLR path IS fully wired; see Fixed bugs below).
-
 ## Design notes / deviations from the original paper
 
 - Root-finding uses `scipy.optimize.brentq`/`minimize_scalar` instead of
