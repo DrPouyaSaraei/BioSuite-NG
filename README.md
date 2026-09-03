@@ -3,7 +3,7 @@
 Python reimplementation + extension of **BioSuite** (Uzan & Nahum, *Br J
 Radiol* 2012;85:1279-1286) -- a radiobiological treatment-optimisation tool
 computing NTCP/TCP and suggesting optimal prescription dose / fractionation.
-For more detailed information, please refer to the *BioSuite-NG User Manual*.
+For more detailed information, please refer to the ***BioSuite-NG User Manual***.
 
 **Developed by:** Dr. Pouya Saraei (Saraei P.)
 **Affiliation:** Department of Medical Physics, Ahvaz Jundishapur University
